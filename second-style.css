@@ -1,0 +1,422 @@
+.container{
+    width: 100%;
+}
+
+#navbar{
+    width: 100%;
+}
+#navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .logo img{
+    width: 200px;
+}
+#navbar .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#navbar .menu a{
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+#navbar .menu a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+#header{
+    height: 75vh;
+    width: 100%;
+
+    background: url("assets/image/header.jpeg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+#header .dark{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+#header .box{
+    text-align: center;
+    position: absolute;
+}
+#header .box h1{
+    font-family: helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+#header .box h2{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+#header .box p{
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    padding: 20px 0px;
+    padding-bottom: 30px;
+}
+#header .box button{
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: orangered;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+#header .box button:hover{
+    color: orangered;
+    background-color: white;
+    font-weight: bolder;
+}
+
+#gallery{
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+#gallery .title{
+    padding: 50px 0px 0px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+#gallery h3 span{
+    color: orangered;
+}
+#gallery .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery .product .box{
+    margin: 30px 30px;
+    text-align: center;
+    background-image: linear-gradient(white,rgb(255, 174, 145));
+}
+#gallery .product .box img{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+}
+#gallery .product .box img:hover{
+    background-color: white;
+    scale: 1.01;
+    box-shadow: 0.5px 0.5px 5px 5px rgb(255, 165, 132);
+}
+#gallery .product .box h3{
+    padding: 10px 0px 10px;
+    font-family: helvetica;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#gallery .product .box p{
+    font-family: Roboto;
+    padding: 0px 20px 30px;
+    font-size: 12px;
+}
+#gallery .product .box button{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: orangered;
+    border-color: orangered;
+    background-color: white;
+    margin: 0px 0px 20px 0px;
+}
+#gallery .product .box button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+#information{
+    background: url("assets/image/bg-for-what-is.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#information .dark{
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.85;
+}
+#information .box{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+#information .box .what{
+    padding: 0px 30px 0px 20px;
+}
+#information .box .what h1{
+    font-family: helvetica;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+#information .box .what h1 span{
+    color: orangered;
+}
+#information .box .what p{
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 20px 20px 50px 0px;
+    line-height: 18px;
+}
+#information .box .what button{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+#information .box .what button:hover{
+    color: orangered;
+    background-color: white;
+}
+#information .img img{
+    padding: 0px 0px 0px 20px;
+    height: 300px;
+    width: 510px;
+}
+
+#how{
+    width: 100%;
+    padding-bottom: 30px;
+}
+#how .title{
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+#how .title span{
+    color: orangered;
+}
+#how .works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#how .works .box{
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 25px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#how .works .box img{
+    width: 100px;
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin: 30px 0px 30px 0px;
+}
+#how .works .box h1{
+    font-family: helvetica;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#how .works .box p{
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 20px 35px 30px 35px;
+    line-height: 20px;
+}
+#how .works .tengah{
+    background-color: orangered;
+}
+#how .works .tengah img{
+    background-color: white;
+}
+#how .works .tengah h1{
+    color: white;
+}
+#how .works .tengah p{
+    color: white;
+}
+
+#solution{
+    height: 60vh;
+    width: 100%;
+
+    background: url("assets/image/bg-for-solution.jpg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+#solution .dark{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    background-color: orangered;
+    opacity: 0.75;
+}
+#solution .box{
+    text-align: center;
+    position: absolute;
+}
+#solution .box h1{
+    font-family: helvetica;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+#solution .box p{
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+    padding: 15px 0px 40px;
+}
+#solution .box button{
+    font-family: helvetica;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: orangered;
+    color: white;
+    border-color: white;
+}
+#solution .box button:hover{
+    color: orangered;
+    background-color: white;
+    font-weight: bolder;
+}
+
+#blog{
+    width: 100%;
+}
+#blog .title{
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+#blog .title span{
+    color: orangered;
+}
+#blog .latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#blog .latest .box{
+    margin: 25px;
+}
+#blog .latest .box img{
+    width: 330px;
+    height: 210px;
+}
+#blog .latest .box .textbox{
+    text-align: left;
+}
+#blog .latest .box .textbox h4{
+    font-family: helvetica;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+#blog .latest .box .textbox p{
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 0px 0px 10px;
+}
+#blog .latest .box .textbox a{
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orangered;
+    text-decoration: none;
+}
+
+#footer{
+    background: url("assets/image/bg-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .dark{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+}
+#footer .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright .content p{
+    color: white;
+    font-family: Roboto;
+    font-size: 10px;
+}
